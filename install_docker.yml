@@ -10,6 +10,3 @@
         update_cache: yes
 
     - name: Garantir que o Nginx esteja rodando
-      service:
-        name: nginx
-        state: started
